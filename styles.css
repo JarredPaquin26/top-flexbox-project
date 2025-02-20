@@ -1,0 +1,78 @@
+/*Style sheet*/
+
+/*Whole page formatting*/
+
+* {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    color: #8a8d91;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/*Header formatting*/
+
+
+.header {
+    display: flex;
+    background-color: #A6A57A;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 16px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #565857;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-left: auto;
+    margin-right: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #565857;
+}
+
+
+
+
+/*Content formatting*/
+
+
+.content{
+    flex: 1;
+}
+
+.overview{
+    display: flex;
+    background-color: #A6A57A;
+}
+
+
+/*Footer formatting*/
+
+.footer {
+    display: flex;
+    max-height: 36px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A6A57A;
+}
+
+.footer-text {
+    color: #734B5e;
+}
