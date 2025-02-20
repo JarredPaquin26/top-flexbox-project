@@ -60,6 +60,15 @@ a {
 .overview{
     display: flex;
     background-color: #A6A57A;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.overview-content{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
 }
 
 
