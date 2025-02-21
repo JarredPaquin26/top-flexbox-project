@@ -104,6 +104,11 @@ h2 {
     font-weight: bolder;
 }
 
+.overview-image {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
 
 /*Footer formatting*/
 
