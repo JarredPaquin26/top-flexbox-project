@@ -6,6 +6,7 @@
     font-family: Tahoma, sans-serif;
     font-size: 18px;
     color: #8a8d91;
+    box-sizing: border-box;
 }
 
 body {
@@ -69,6 +70,38 @@ a {
     display: flex;
     flex-direction: column;
     width: 350px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.overview-paragraph, .overview-header {
+    color: #734B5e;
+}
+
+.portfolio-button {
+    background-color: #BC5F04;
+    color: #734B5e;
+    width: 200px;
+    align-self: center;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.portfolio-button:hover {
+    background-color: #8a8d91;
+    color: #734B5e;
+    width: 200px;
+    align-self: center;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 
